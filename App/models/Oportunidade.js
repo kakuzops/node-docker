@@ -12,6 +12,10 @@ const oportunidadeSchema = new Schema({
         type: String,
         require: true
     },
+    valor_total:{
+        type: String,
+        required: true
+    },
     criadoEm: {
         type: Date,
         default: Date.now
